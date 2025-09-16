@@ -59,11 +59,11 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | CodeWithShivam";
+            document.title = "Portfolio | DataWithAtul";
             $("#favicon").attr("href", "assets/images/favicon.jpg");
         }
         else {
-            document.title = "Portfolio | Shivam Kumar Singh";
+            document.title = "Portfolio | Atul Kumar";
             $("#favicon").attr("href", "assets/images/favicon.jpg");
         }
     });
